@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Search for a travel package" skipped="0" tests="1" time="54.77" timestamp="2018-12-03 08:24:12"><testcase name="Do a search of a turistic package"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.viajesexito.certification.purchase.tasks.SearchPackage.performAs(SearchPackage.java:35)&#13;
+com.viajesexito.certification.purchase.stepdefinitions.StepDefinitionsFindAPackage.dannFillTheFieldsOfTheSearchPackage(StepDefinitionsFindAPackage.java:54)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+</system-err></testcase></testsuite>

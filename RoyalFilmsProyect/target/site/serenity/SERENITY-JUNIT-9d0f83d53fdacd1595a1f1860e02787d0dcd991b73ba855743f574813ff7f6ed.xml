@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Select film in Royal Films" skipped="0" tests="1" time="0.91" timestamp="2018-11-21 11:20:43"><testcase name="Select a film"><error type="java.lang.StackOverflowError"/><system-err>null&#13;
+</system-err></testcase></testsuite>

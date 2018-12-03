@@ -1,0 +1,111 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 47362533482,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that Dann wants to buy a tourist package",
+            "match": {
+              "location": "StepDefinitionsFindAPackage.thatDannWantsToBuyATouristPackage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 133377309,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsFindAPackage.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Do a search of a turistic package",
+        "description": "",
+        "id": "search-for-a-travel-package;do-a-search-of-a-turistic-package",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.viajesexito.certification.purchase.tasks.SearchPackage.performAs(SearchPackage.java:35)\r\n\tat com.viajesexito.certification.purchase.tasks.SearchPackage$$EnhancerByCGLIB$$51900417.CGLIB$performAs$0(\u003cgenerated\u003e)\r\n\tat com.viajesexito.certification.purchase.tasks.SearchPackage$$EnhancerByCGLIB$$51900417$$FastClassByCGLIB$$1fcc516a.invoke(\u003cgenerated\u003e)\r\n\tat net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)\r\n\tat net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)\r\n\tat net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)\r\n\tat net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:361)\r\n\tat net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)\r\n\tat net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)\r\n\tat com.viajesexito.certification.purchase.tasks.SearchPackage$$EnhancerByCGLIB$$51900417.performAs(\u003cgenerated\u003e)\r\n\tat net.serenitybdd.screenplay.Actor.perform(Actor.java:106)\r\n\tat net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)\r\n\tat com.viajesexito.certification.purchase.stepdefinitions.StepDefinitionsFindAPackage.dannFillTheFieldsOfTheSearchPackage(StepDefinitionsFindAPackage.java:54)\r\n\tat ✽.Dann fill the fields of the search package(src/test/resources/com/viajesexito/certification/purchase/features/find_a_package.feature:10)\r\n",
+              "duration": 5022434767,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Dann fill the fields of the search package",
+            "match": {
+              "location": "StepDefinitionsFindAPackage.dannFillTheFieldsOfTheSearchPackage(String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Origen",
+                  "Destino",
+                  "Ida",
+                  "Regreso"
+                ]
+              },
+              {
+                "cells": [
+                  "Medell�n",
+                  "Bogota",
+                  "25-01-2019",
+                  "10-02-2019"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Dann should see a list of packages",
+            "match": {
+              "location": "StepDefinitionsFindAPackage.dannShouldSeeAListOfPackages()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Search for a travel package",
+    "description": "  in the page www.viajesexito.com",
+    "id": "search-for-a-travel-package",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/viajesexito/certification/purchase/features/find_a_package.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

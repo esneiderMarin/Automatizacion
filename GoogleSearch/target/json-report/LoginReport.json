@@ -1,0 +1,70 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 99676073,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearchStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search for a required word",
+        "description": "",
+        "id": "google-search;search-for-a-required-word",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17836576564,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "that Esneider want to search a word",
+            "match": {
+              "location": "GoogleSearchStepDefinitions.thatEsneiderWantToSearchAWord()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7327895035,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "he find for the word hola mundo",
+            "match": {
+              "location": "GoogleSearchStepDefinitions.heFindForTheWordHolaMundo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 273659691,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "he should see the word Hola mundo in the screen",
+            "match": {
+              "location": "GoogleSearchStepDefinitions.heShouldSeeTheWordHolaMundoInTheScreen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "\tAs a web user\n\tI want to use google home page\n\tto search for a word",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/google_search.feature",
+    "tags": []
+  }
+]

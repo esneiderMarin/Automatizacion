@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.demoaut.newtours.certificacion.tests.NewtoursLogin" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-12T23:59:11" hostname="RC-PC" time="21.544">
+  <properties/>
+  <testcase name="test" classname="com.demoaut.newtours.certificacion.tests.NewtoursLogin" time="21.544"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a) on port 10210
+Only local connections are allowed.
+nov 12, 2018 6:59:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+]]></system-err>
+</testsuite>
